@@ -1,0 +1,18 @@
+https://github.com/Hexlet/ru-test-assignments/blob/main/QA/%D0%9E%D0%9E%D0%9E%20%D0%A1%D0%B8%D0%BD%D1%82%D0%B5%D0%BA%D0%B0/README.md
+
+Блок 1. Логическая задача 
+Вероятность солнечной погоды будет составлять 0%, так как в этот момент будет ночь.
+
+Блок 2. Linux 
+1. grep -C 100 "2021-02-12" application.log 
+Эта команда выведет 100 строк до и после "2021-02-12" в файле application.log
+2. Команда tail используется для просмотра 10 последних строк файла.
+Команда grep используется для поиска в файле заданных текстовых строк.
+3. Использование команд tail и grep вместе возможно. Это можно сделать через пайплайн, например tail -f /var/log/file.log | grep search_term
+
+Блок 3. SQL-запрос
+SELECT last_name, COUNT (pilot_id) AS flights_count  
+FROM pilot
+INNER JOIN airplane_pilot ap ON p.pilot_id=ap.pilot_id
+INNER JOIN aiplane a ON ap.airplane_id=a.airplane_id
+WHERE model='Сухой' AND flight_date BETWEEN '2022-02-01' AND '2022-02-28';
