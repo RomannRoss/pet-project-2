@@ -1,0 +1,36 @@
+https://staging.d2twwklgqmrfet.amplifyapp.com/login
+
+План тестирования:
+
+Чек-лист проверок для страницы /documents:
+
+Баг-репорты:
+- summary: |
+    
+  environment: |
+    
+  steps-to-reproduce: |
+    
+  expected-result: |
+    
+  actual-result: |
+    
+- summary: |
+    
+  environment: |
+    
+  steps-to-reproduce: |
+    
+  expected-result: |
+    
+  actual-result: |
+
+- summary: |
+    
+  environment: |
+    
+  steps-to-reproduce: |
+    
+  expected-result: |
+    
+  actual-result: |
